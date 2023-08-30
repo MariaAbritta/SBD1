@@ -154,7 +154,6 @@ int main() {
                     }
                 }
             }
-
             if (!usuarioEncontrado) {
                 printf("Usuário não encontrado.\n");
             }
@@ -166,7 +165,6 @@ int main() {
             default:
                 break;
         }
-
         if (opcao == 3) {
             printf("Obrigada por usar o programa! - Abritta\n");
             break; // Saída do loop após a opção 3 ser escolhida
