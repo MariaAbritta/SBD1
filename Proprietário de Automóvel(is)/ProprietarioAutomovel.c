@@ -65,12 +65,12 @@ int main() {
                 printf("Quantas pessoas serão cadastradas? ");
                 scanf("%d", &quantidadeUsuarios);
                 for(int k = 0; k < quantidadeUsuarios; k++){
-                /*Usando o modo de abertura "a", significa "append" (anexar). 
+                /*Usando o modo de abertura "ab", significa "append" (anexar). 
                 Isso indica que o arquivo será aberto no modo de escrita de anexação, 
                 onde novos dados serão acrescentados ao final do arquivo, 
                 preservando os dados existentes.*/
-                arquivoUsuarios = fopen("FichasUsuarios.txt", "a");
-                arquivoAutomoveis = fopen("FichasAutomoveis.txt", "a");
+                arquivoUsuarios = fopen("FichasUsuarios.bin", "ab");
+                arquivoAutomoveis = fopen("FichasAutomoveis.bin", "ab");
 
                 printf("Digite o nome completo do usuário: ");
                 scanf(" %[^\n]", usuario.nomeCompleto);
@@ -120,9 +120,9 @@ int main() {
             printf("\n\nUsuário cadastrado\n\n");
             break;
         case 2:
-            arquivoUsuarios = fopen("FichasUsuarios.txt", "r");
-            arquivoAutomoveis = fopen("FichasAutomoveis.txt", "r");
-            /*Usando o modo de abertura "r", significa "read" (leitura). 
+            arquivoUsuarios = fopen("FichasUsuarios.bin", "rb");
+            arquivoAutomoveis = fopen("FichasAutomoveis.bin", "rb");
+            /*Usando o modo de abertura "rb", significa "read" (leitura). 
             Isso indica que o arquivo será aberto no modo de leitura, 
             permitindo que leia o conteúdo do arquivo.*/
 
