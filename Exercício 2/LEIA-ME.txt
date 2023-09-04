@@ -1,0 +1,9 @@
+Para compilar o código foi utilizado as linhas de comando: 
+
+- gcc ProprietarioAutomovel.c
+- ./a.out
+
+Existem 3 opções possíveis dentro do programa: 
+1 - Cadastrar novo Usuário e seu Automóvel
+2 - Listar Usuários e Automoveis
+3 - Sair do programa
