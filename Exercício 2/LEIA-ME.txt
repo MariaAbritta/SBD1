@@ -5,5 +5,6 @@ Para compilar o código foi utilizado as linhas de comando:
 
 Existem 3 opções possíveis dentro do programa: 
 1 - Cadastrar novo Usuário e seu Automóvel
-2 - Listar Usuários e Automoveis
-3 - Sair do programa
+2 - Listar Usuários e Automóveis por CPF
+3 - Listar Usuários e Automóveis por nome
+4 - Sair do programa
